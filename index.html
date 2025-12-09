@@ -19,6 +19,10 @@
         <label>Ano de lançamento:</label>
         <input type="number" id="ano">
 
+        <label>Plataforma</label>
+        <input type="text" id="plataforma">
+        
+
         <button id="botaoAdc">Adicionar</button>
     </section>
 
@@ -37,12 +41,15 @@
                 <th>Nome</th>
                 <th>Gênero</th>
                 <th>Ano</th>
+                <th>Plataforma</th>
                 <th>Ação</th>
                 <th>Excluir</th>
             </tr>
         </thead>
-        <tbody></tbody>
+        <tbody id="tabela"></tbody>
     </table>
+
+    <button id="limpar">Limpar tabela</button>
 
     <script src="scripts.js"></script>
 </body>
